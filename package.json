@@ -1,0 +1,19 @@
+{
+  "name": "relay-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^16.10.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-relay": "^18.2.0"
+  },
+  "devDependencies": {
+    "get-graphql-schema": "^2.1.2",
+    "relay-compiler": "^18.2.0"
+  },
+  "scripts": {
+    "relay": "relay-compiler --watch"
+  }
+}
